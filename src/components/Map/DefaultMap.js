@@ -3,16 +3,23 @@ import {YMaps, Map} from "react-yandex-maps";
 
 export default function DefaultMap(props) {
 
+   let data = JSON.parse(localStorage.getItem('userData'))
+
    const getGeoLocation = (ymaps) => {
       ymaps.geolocation.get({
          provider: 'browser',
          autoReverseGeocode: true,
          useMapMargin: true
       }).then(function (result) {
-         props.coors(result.geoObjects.position)
          ymaps.geocode(result.geoObjects.position).then(res => {
             let position = res.geoObjects.get(0).properties.getAll();
-            props.location(position.text);
+            if (data) {
+               props.location(data[0].location)
+               props.coors(data[0].coordinates)
+            } else {
+               props.location(position.text)
+               props.coors(result.geoObjects.position)
+            }
          })
       });
    };
