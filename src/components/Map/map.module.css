@@ -1,7 +1,43 @@
-.map{
+.map {
     width: 850px;
     height: 420px;
     border: 2px solid #fcc600;
     border-radius: 2px;
     opacity: 0.9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    /*flex-grow: 1;*/
+}
+
+.logo img {
+    width: 45px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.location {
+    width: 350px;
+    text-align: center;
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 250px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.approve {
+    text-align: center;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 345px;
+    border: 1px solid #fcc600;
+    padding: 8px 16px;
+    background: #FFCD00;
+    color: #1a1a1a;
+    outline: none;
+    cursor: pointer;
 }

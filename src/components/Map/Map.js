@@ -1,14 +1,35 @@
 import React, {useEffect, useRef, useState} from "react";
+import {makeStyles} from "@material-ui/core/styles";
 import TransitionsModal from "../UI/Modal";
+import {Sugar} from "react-preloaders";
 import {YMaps, Map, GeolocationControl, Placemark, ZoomControl, SearchControl} from "react-yandex-maps";
 import DefaultMap from "./DefaultMap";
 import locIcon from '../../assets/images/locIcon.svg';
 import style from './map.module.css';
-import Wrapper from "../Wrapper";
+import loca from "../../assets/images/location.svg";
+
+const useStyles = makeStyles((theme) => ({
+   location: {
+      [theme.breakpoints.down('sm')]: {
+         display: 'none',
+      },
+      cursor: 'pointer'
+   }
+}));
 
 export default function YandexMap(props) {
+   const classes = useStyles();
    const [location, setLocation] = useState();
    const [coors, setCoors] = useState();
+   const [open, setOpen] = React.useState(false);
+   const [load, setLoad] = React.useState(false);
+
+   const handleOpen = () => {
+      setOpen(true);
+   }
+   const handleClose = () => {
+      setOpen(false);
+   };
 
    const ref = useRef();
 
@@ -89,11 +110,16 @@ export default function YandexMap(props) {
    const handleSubmit = () => {
       localStorage.setItem('userData', JSON.stringify(userData))
    }
-
+   
    return (
       <div>
+         <div className={[classes.location, style.logo].join(' ')}
+              style={{width: 250, flexGrow: 1}}>
+            <img src={loca} alt="location"/>
+            {location === undefined ? <p>Адрес не указан разрешите геолокацию</p> : <p  onClick={handleOpen}>{location}</p>}
+         </div>
          <DefaultMap location={setLocation} coors={setCoors}/>
-         <TransitionsModal width={700} height={350} position={location} submit={handleSubmit}>
+         <TransitionsModal width={700} height={350} open={open} handleClose={handleClose}>
             <YMaps query={{apikey: 'a611d201-19b9-4184-98c3-e7d6c4de6c1d'}}>
                <Map
                   defaultState={{
@@ -116,6 +142,13 @@ export default function YandexMap(props) {
                   <SearchControl options={{float: 'right'}} {...searchControl}/>
                </Map>
             </YMaps>
+            <div className={style.location}>{location}</div>
+            <div onClick={() => setOpen(false)}>
+               <button onClick={handleSubmit} className={style.approve}>Подтвердить адрес</button>
+            </div>
+            <div style={{opacity: 0.9}}>
+               <Sugar customLoading={load} color="#FFCD00" />
+            </div>
          </TransitionsModal>
       </div>
    )

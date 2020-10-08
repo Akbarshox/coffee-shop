@@ -27,12 +27,13 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar() {
    const classes = useStyles();
    const [permission, setPermit] = useState('granted');
+   useEffect(() => {
+      navigator.permissions.query({name: 'geolocation'})
+         .then((res) => {
+            setPermit(res.state);
+         })
+   }, [permission])
 
-   navigator.permissions.query({name: 'geolocation'})
-      .then((res) => {
-         setPermit(res.state);
-      })
-   console.log(permission)
    return (
       <div>
          <AppBar position="static" className={classes.appbar}>
@@ -52,7 +53,7 @@ export default function ButtonAppBar() {
                      <input type="text" placeholder="Поиск"/>
                      <div className={style.fade}/>
                   </div>
-                  {permission === 'granted' ? <YandexMap/> : <p className={style.support}>Пожалуйста разрешите геолокацию</p>}
+                  <YandexMap />
                   <span className={style.link}><Link to="" style={{fontWeight: 'bold'}}>Вход</Link>| <Link
                      to="">Регистраци</Link></span>
                </Toolbar>
