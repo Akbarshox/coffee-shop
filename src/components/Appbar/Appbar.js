@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -26,7 +26,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ButtonAppBar() {
    const classes = useStyles();
+   const [permission, setPermit] = useState('granted');
 
+   navigator.permissions.query({name: 'geolocation'})
+      .then((res) => {
+         setPermit(res.state);
+      })
+   console.log(permission)
    return (
       <div>
          <AppBar position="static" className={classes.appbar}>
@@ -46,7 +52,7 @@ export default function ButtonAppBar() {
                      <input type="text" placeholder="Поиск"/>
                      <div className={style.fade}/>
                   </div>
-                  <YandexMap/>
+                  {permission === 'granted' ? <YandexMap/> : <p>Пожалуйста разрешите геолокацию</p>}
                   <span className={style.link}><Link to="" style={{fontWeight: 'bold'}}>Вход</Link>| <Link
                      to="">Регистраци</Link></span>
                </Toolbar>

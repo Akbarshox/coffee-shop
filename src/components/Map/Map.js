@@ -9,6 +9,7 @@ import Wrapper from "../Wrapper";
 export default function YandexMap(props) {
    const [location, setLocation] = useState();
    const [coors, setCoors] = useState();
+
    const ref = useRef();
 
    const userData = [
@@ -83,6 +84,7 @@ export default function YandexMap(props) {
    const handleSubmit = () => {
       localStorage.setItem('userData', JSON.stringify(userData))
    }
+
    return (
       <div>
          <DefaultMap location={setLocation} coors={setCoors}/>
