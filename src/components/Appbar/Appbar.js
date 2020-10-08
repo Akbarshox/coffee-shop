@@ -52,7 +52,7 @@ export default function ButtonAppBar() {
                      <input type="text" placeholder="Поиск"/>
                      <div className={style.fade}/>
                   </div>
-                  {permission === 'granted' ? <YandexMap/> : <p>Пожалуйста разрешите геолокацию</p>}
+                  {permission === 'granted' ? <YandexMap/> : <p className={style.support}>Пожалуйста разрешите геолокацию</p>}
                   <span className={style.link}><Link to="" style={{fontWeight: 'bold'}}>Вход</Link>| <Link
                      to="">Регистраци</Link></span>
                </Toolbar>

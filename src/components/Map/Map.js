@@ -69,7 +69,12 @@ export default function YandexMap(props) {
          openBalloonOnClick: true,
       }
    };
-
+   const searchControl = {
+      options: {
+         size: 'medium',
+         float: 'right'
+      }
+   }
    function handleClick(map) {
       if (map) {
          map.events.add('locationchange', function (event) {
@@ -108,7 +113,7 @@ export default function YandexMap(props) {
                              onDragEnd={(e) => dragEvent(e)}
                   />
                   <ZoomControl options={{float: 'right'}}/>
-                  <SearchControl options={{float: 'right'}}/>
+                  <SearchControl options={{float: 'right'}} {...searchControl}/>
                </Map>
             </YMaps>
          </TransitionsModal>
