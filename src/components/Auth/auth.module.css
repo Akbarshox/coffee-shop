@@ -1,0 +1,42 @@
+.cursor {
+    cursor: pointer;
+    padding: 2px 4px 0 4px;
+}
+
+.auth {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.auth p {
+    padding: 5px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.auth input {
+    padding: 5px 1px 10px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    outline: none;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.input {
+    color: #000
+}
+
+.checkBox {
+    display: inline-flex;
+    margin-top: -10px;
+}
+.checkBox p {
+    font-size: 12px;
+}

@@ -3,10 +3,12 @@ import {makeStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import SignIn from "../Auth/SignIn";
+import {useAuth} from "../firebase";
 import style from './Appbar.module.css';
 import Wrapper from "../Wrapper";
 import logo from '../../assets/images/logo.jpg';
-import {Link} from "react-router-dom";
+import Account from "./Account";
 import SideDrawer from "./SideDrawer";
 import YandexMap from "../Map/Map";
 
@@ -27,6 +29,8 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar() {
    const classes = useStyles();
    const [permission, setPermit] = useState('granted');
+   let user = useAuth().user
+
    useEffect(() => {
       navigator.permissions.query({name: 'geolocation'})
          .then((res) => {
@@ -53,9 +57,9 @@ export default function ButtonAppBar() {
                      <input type="text" placeholder="Поиск"/>
                      <div className={style.fade}/>
                   </div>
-                  <YandexMap />
-                  <span className={style.link}><Link to="" style={{fontWeight: 'bold'}}>Вход</Link>| <Link
-                     to="">Регистраци</Link></span>
+                  <YandexMap/>
+                  {user ? <Account /> : <span className={style.link}><SignIn/></span> }
+
                </Toolbar>
             </Wrapper>
          </AppBar>

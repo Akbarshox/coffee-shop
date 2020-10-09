@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {StoreProvider} from "./Store";
+import {ProvideAuth} from "./components/firebase";
 
 ReactDOM.render(
    <StoreProvider>
-      <App/>
+      <ProvideAuth>
+         <App/>
+      </ProvideAuth>
    </StoreProvider>,
    document.getElementById('root')
 );

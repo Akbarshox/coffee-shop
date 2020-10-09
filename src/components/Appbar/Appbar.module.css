@@ -46,10 +46,8 @@
     font-family: Arial, serif;
 }
 
-.link a {
-    text-decoration: none;
-    padding: 4px;
-    color: black;
+.link {
+    display: inline-flex;
 }
 
 @media (max-width: 1000px) {
