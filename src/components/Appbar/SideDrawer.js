@@ -4,6 +4,8 @@ import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
+import YandexMap from "../Map/Map";
+import style from './Appbar.module.css';
 
 const useStyles = makeStyles((theme) => ({
    list: {
@@ -23,31 +25,22 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SideDrawer() {
    const classes = useStyles();
-   const [state, setState] = React.useState({
-      left: false,
-   });
+   const [state, setState] = React.useState(false);
 
    const toggleDrawer = (side, open) => event => {
-      if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-         return;
-      }
-
-      setState({...state, [side]: open});
+      setState(!state)
    };
 
    const sideList = side => (
       <div
          className={classes.list}
          role="presentation"
-         onClick={toggleDrawer(side, false)}
-         onKeyDown={toggleDrawer(side, false)}
+         // onClick={toggleDrawer(side, false)}
+         // onKeyDown={toggleDrawer(side, false)}
       >
-         <List>
-            {/*<ListItem button>*/}
-            {/*<SignIn/>*/}
-            {/*<SignUp/>*/}
-            {/*</ListItem>*/}
-         </List>
+         <div className={style.sidedrawerList}>
+            <YandexMap/>
+         </div>
       </div>
    );
 
@@ -58,11 +51,11 @@ export default function SideDrawer() {
             className={classes.menuButton}
             color="inherit"
             aria-label="open drawer"
-            onClick={toggleDrawer('left', true)}
+            onClick={toggleDrawer(true)}
          >
             <MenuIcon/>
          </IconButton>
-         <Drawer open={state.left} onClose={toggleDrawer('left', false)}>
+         <Drawer open={state} onClose={toggleDrawer(false)}>
             {sideList('left')}
          </Drawer>
       </div>

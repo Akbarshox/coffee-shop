@@ -10,9 +10,6 @@ import loca from "../../assets/images/location.svg";
 
 const useStyles = makeStyles((theme) => ({
    location: {
-      [theme.breakpoints.down('sm')]: {
-         display: 'none',
-      },
       cursor: 'pointer'
    }
 }));
@@ -121,37 +118,35 @@ export default function YandexMap(props) {
                <p onClick={handleOpen}>{location}</p>}
          </div>
          <DefaultMap location={setLocation} coors={setCoors}/>
-         <TransitionsModal width={700} height={350} open={open} handleClose={handleClose}>
-            <div style={{marginLeft: -100}}>
-               <YMaps query={{apikey: 'a611d201-19b9-4184-98c3-e7d6c4de6c1d'}}>
-                  <Map
-                     defaultState={{
-                        center: coors,
-                        zoom: 17,
-                        controls: [],
-                     }}
-                     modules={["geolocation", "geocode"]}
-                     className={style.map}
-                  >
-                     <GeolocationControl onLoad={(ymaps) => getGeoLocation(ymaps)}
-                                         instanceRef={(map) => handleClick(map)}
-                                         {...geoControl}
-                     />
-                     <Placemark {...placeMark}
-                                onLoad={(e) => onPlacemark(e)}
-                                onDragEnd={(e) => dragEvent(e)}
-                     />
-                     <ZoomControl options={{float: 'right'}}/>
-                     <SearchControl options={{float: 'right'}} {...searchControl}/>
-                  </Map>
-               </YMaps>
-               <div className={style.location}>{location}</div>
-               <div onClick={() => setOpen(false)}>
-                  <button onClick={handleSubmit} className={style.approve}>Подтвердить адрес</button>
-               </div>
-               <div style={{opacity: 0.9}}>
-                  <Sugar customLoading={load} color="#FFCD00"/>
-               </div>
+         <TransitionsModal open={open} handleClose={handleClose}>
+            <YMaps query={{apikey: 'a611d201-19b9-4184-98c3-e7d6c4de6c1d'}}>
+               <Map
+                  defaultState={{
+                     center: coors,
+                     zoom: 17,
+                     controls: [],
+                  }}
+                  modules={["geolocation", "geocode"]}
+                  className={style.map}
+               >
+                  <GeolocationControl onLoad={(ymaps) => getGeoLocation(ymaps)}
+                                      instanceRef={(map) => handleClick(map)}
+                                      {...geoControl}
+                  />
+                  <Placemark {...placeMark}
+                             onLoad={(e) => onPlacemark(e)}
+                             onDragEnd={(e) => dragEvent(e)}
+                  />
+                  <ZoomControl options={{float: 'right'}}/>
+                  <SearchControl options={{float: 'right'}} {...searchControl}/>
+               </Map>
+            </YMaps>
+            <div className={style.location}>{location}</div>
+            <div onClick={() => setOpen(false)}>
+               <button onClick={handleSubmit} className={style.approve}>Подтвердить адрес</button>
+            </div>
+            <div style={{opacity: 0.9}}>
+               <Sugar customLoading={load} color="#FFCD00"/>
             </div>
          </TransitionsModal>
       </div>

@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useContext, createContext} from "react";
+import React, {useState, useEffect, useContext, createContext, useRef} from "react";
 import firebase from "firebase";
 import "firebase/auth";
 import "firebase/firestore";
@@ -32,7 +32,11 @@ export default function useProvideAuth() {
    const [user, setUser] = useState([]);
    const [error, setError] = useState(null);
    const [codez, setCode] = useState('');
+   const ref = useRef();
 
+   useEffect(() => {
+      setCode(codez);
+   }, [codez])
    const reCaptcha = (props) => {
       window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
          'size': 'invisible',
@@ -47,18 +51,21 @@ export default function useProvideAuth() {
       let phoneNumber = number;
       let userName = name;
       let appVerifier = window.recaptchaVerifier;
+
       firebase.auth().signInWithPhoneNumber(phoneNumber, appVerifier)
          .then(function (confirmationResult) {
             // SMS sent. Prompt user to type the code from the message, then sign the
             // user in with confirmationResult.confirm(code).
             window.confirmationResult = confirmationResult;
-            // let code = alert("enter code");
-            confirmationResult.confirm(codez).then(function (result) {
+            let code = window.prompt('Подтвердите код');
+            confirmationResult.confirm(code).then(function (result) {
                // User signed in successfully.
                return result.user.updateProfile({
                   displayName: userName,
                });
                setUser(result.user)
+               console.log(result.user)
+               localStorage.setItem('user', JSON.stringify(result.user));
             }).catch(function (error) {
                // User couldn't sign in (bad verification code?)
                console.log(error)
@@ -68,9 +75,10 @@ export default function useProvideAuth() {
          console.log(error)
       });
    }
-   const submitCode = (code) => {
-      setCode(code);
-   }
+   // console.log(codez)
+   // const submitCode = (code) => {
+   //    setCode(code);
+   // }
    const signout = () => {
       return firebase
          .auth()
@@ -107,6 +115,6 @@ export default function useProvideAuth() {
       error,
       setError,
       signout,
-      submitCode
+      // submitCode
    };
 }

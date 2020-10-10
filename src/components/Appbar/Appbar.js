@@ -4,7 +4,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import SignIn from "../Auth/SignIn";
-import {useAuth} from "../firebase";
 import style from './Appbar.module.css';
 import Wrapper from "../Wrapper";
 import logo from '../../assets/images/logo.jpg';
@@ -20,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
       borderBottom: '1px solid #cacaca'
    },
    link: {
-      [theme.breakpoints.down('md')]: {
+      [theme.breakpoints.down('sm')]: {
          display: 'none',
       },
    }
@@ -29,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar() {
    const classes = useStyles();
    const [permission, setPermit] = useState('granted');
-   let user = useAuth().user
+   let user = JSON.parse(localStorage.getItem('user'))
 
    useEffect(() => {
       navigator.permissions.query({name: 'geolocation'})
@@ -57,9 +56,8 @@ export default function ButtonAppBar() {
                      <input type="text" placeholder="Поиск"/>
                      <div className={style.fade}/>
                   </div>
-                  <YandexMap/>
-                  {user ? <Account /> : <span className={style.link}><SignIn/></span> }
-
+                  <div className={classes.link}><YandexMap/></div>
+                  {user ? <Account /> : <span className={style.link}><SignIn/></span>}
                </Toolbar>
             </Wrapper>
          </AppBar>

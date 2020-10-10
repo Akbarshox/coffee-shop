@@ -41,3 +41,26 @@
     outline: none;
     cursor: pointer;
 }
+
+@media (max-width: 900px) {
+    .map {
+        width: 300px;
+        height: 500px;
+        margin-bottom: -20px;
+    }
+    .approve {
+        margin-top: -60px;
+        margin-left: 70px;
+        text-align: center;
+    }
+    .location {
+        margin-left: 0px;
+        font-size: 12px;
+        width: 300px;
+    }
+    .logo {
+        margin-top: 20px;
+        position: absolute;
+        outline: none;
+    }
+}
