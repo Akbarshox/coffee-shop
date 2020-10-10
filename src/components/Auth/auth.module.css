@@ -40,3 +40,10 @@
 .checkBox p {
     font-size: 12px;
 }
+
+@media (max-width: 380px) {
+    .auth {
+        width: auto;
+        height: auto;
+    }
+}
