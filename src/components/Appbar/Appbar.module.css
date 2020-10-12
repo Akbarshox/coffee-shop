@@ -20,7 +20,7 @@
     border-radius: 8px;
     outline: none;
     border: 1px solid #aaa;
-    z-index: 100;
+    z-index: 1000!important;
     position: relative;
 }
 
@@ -92,6 +92,54 @@
     }
 
     .input {
+        display: none;
+    }
+
+    .inputMobile input {
+        width: 45px;
+        height: 45px;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 50px;
+        font-size: 16px;
+        background: none;
+        padding: 12px 10px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        right: 0;
+        position: absolute;
+        top: 5px;
+        overflow: hidden;
+    }
+
+    .inputMobile input::placeholder {
+        color: transparent;
+    }
+
+    .inputMobile input:focus::placeholder {
+        color: #aaaaaa;
+    }
+
+    .inputMobile input:focus {
+        width: 90%;
+        outline: none;
+        background: #fff;
+        border: 2px solid #FFCD00;
+        height: auto;
+        padding: 12px 10px 12px 20px;
+        overflow: hidden;
+    }
+
+    .inputMobile img {
+        width: 30px;
+        position: absolute;
+        right: 16px;
+        top: 14px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .inputMobile {
         display: none;
     }
 }

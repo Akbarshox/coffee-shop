@@ -10,6 +10,8 @@ import logo from '../../assets/images/logo.jpg';
 import Account from "./Account";
 import SideDrawer from "./SideDrawer";
 import YandexMap from "../Map/Map";
+import search from '../../assets/scroll/search.svg';
+import DefaultMap from "../Map/DefaultMap";
 
 const useStyles = makeStyles((theme) => ({
    appbar: {
@@ -57,10 +59,14 @@ export default function ButtonAppBar() {
                      <div className={style.fade}/>
                   </div>
                   <div className={classes.link}><YandexMap/></div>
-                  {user ? <Account /> : <span className={style.link}><SignIn/></span>}
+                  {user ? <Account/> : <span className={style.link}><SignIn/></span>}
+                  <div className={style.inputMobile}>
+                     <img src={search} alt="search"/>
+                     <input type="text" name="search" placeholder="Search.." />
+                  </div>
                </Toolbar>
             </Wrapper>
          </AppBar>
       </div>
-   );
+);
 }

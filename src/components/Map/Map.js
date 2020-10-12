@@ -2,7 +2,7 @@ import React, {useEffect, useRef, useState} from "react";
 import {makeStyles} from "@material-ui/core/styles";
 import TransitionsModal from "../UI/Modal";
 import {Sugar} from "react-preloaders";
-import {YMaps, Map, GeolocationControl, Placemark, ZoomControl, SearchControl} from "react-yandex-maps";
+import {YMaps, Map, GeolocationControl, Placemark, ZoomControl, SearchControl, TypeSelector} from "react-yandex-maps";
 import DefaultMap from "./DefaultMap";
 import locIcon from '../../assets/images/locIcon.svg';
 import style from './map.module.css';
@@ -19,7 +19,6 @@ export default function YandexMap(props) {
    const [location, setLocation] = useState();
    const [coors, setCoors] = useState();
    const [open, setOpen] = React.useState(false);
-   const [load, setLoad] = React.useState(false);
 
    const handleOpen = () => {
       setOpen(true);
@@ -139,14 +138,15 @@ export default function YandexMap(props) {
                   />
                   <ZoomControl options={{float: 'right'}}/>
                   <SearchControl options={{float: 'right'}} {...searchControl}/>
+                  <TypeSelector options={{ float: 'left' }} />
                </Map>
             </YMaps>
-            <div className={style.location}>{location}</div>
-            <div onClick={() => setOpen(false)}>
-               <button onClick={handleSubmit} className={style.approve}>Подтвердить адрес</button>
-            </div>
             <div style={{opacity: 0.9}}>
-               <Sugar customLoading={load} color="#FFCD00"/>
+               <div className={style.location}>{location}</div>
+               <div onClick={() => setOpen(false)}>
+                  <button onClick={handleSubmit} className={style.approve}>Подтвердить адрес</button>
+               </div>
+               <Sugar customLoading={false} color="#FFCD00"/>
             </div>
          </TransitionsModal>
       </div>

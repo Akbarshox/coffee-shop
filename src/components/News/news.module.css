@@ -1,0 +1,37 @@
+.main {
+    background: none;
+    z-index: -100 !important;
+}
+
+.main p {
+    font-size: 21px;
+    padding: 0 20px 0;
+}
+
+.carousel img {
+    max-width: 360px !important;
+    min-width: 360px !important;
+    min-height: 210px !important;
+    max-height: 210px !important;
+    border-radius: 10px;
+}
+
+.carousel a {
+    cursor: pointer !important;
+}
+
+@media (max-width: 1000px) {
+    .main p {
+        padding: 0;
+    }
+
+    .comp {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mobile {
+        display: none;
+    }
+}

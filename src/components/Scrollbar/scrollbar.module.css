@@ -1,0 +1,56 @@
+*:focus {
+    outline: none;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.scrollbar {
+    width: 40px;
+    height: auto;
+    padding: 14px;
+    border: 1px solid #aaa;
+    outline: none;
+    margin: 5px 20px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.scrollbar:hover {
+    background: #FFE800;
+}
+
+.arrow {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 9px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 #ddd;
+    cursor: pointer;
+}
+
+.arrow img {
+    width: 20px;
+    margin-top: 3px;
+}
+
+@media (max-width: 600px) {
+    .arrow {
+        display: none;
+    }
+
+    .hr {
+        border: none;
+        background: #ddd;
+        height: 1px ;
+    }
+}
+
+@media (min-width: 600px) {
+    .hr {
+        display: none;
+    }
+}
