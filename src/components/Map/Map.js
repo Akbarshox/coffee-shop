@@ -138,7 +138,7 @@ export default function YandexMap(props) {
                   />
                   <ZoomControl options={{float: 'right'}}/>
                   <SearchControl options={{float: 'right'}} {...searchControl}/>
-                  <TypeSelector options={{ float: 'left' }} />
+                  <TypeSelector options={{float: 'left'}}/>
                </Map>
             </YMaps>
             <div style={{opacity: 0.9}}>

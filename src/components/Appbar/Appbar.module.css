@@ -20,7 +20,7 @@
     border-radius: 8px;
     outline: none;
     border: 1px solid #aaa;
-    z-index: 1000!important;
+    z-index: 1001;
     position: relative;
 }
 
@@ -33,6 +33,7 @@
     background: #333;
     opacity: .4;
     display: none;
+    z-index: 1000;
 }
 
 .input input:focus ~ .fade {
