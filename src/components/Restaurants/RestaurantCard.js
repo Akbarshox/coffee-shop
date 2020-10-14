@@ -26,7 +26,7 @@ export default function Restaurants() {
          <Wrapper>
             <div className={style.rest}>
                <p>Все рестораны</p>
-               <Grid container spacing={3} style={{marginTop: 20}}>
+               <Grid container spacing={4} style={{marginTop: 20}}>
                   {data.map((el, i) =>
                      <Grid key={i} item xs={12} sm={6} md={4}>
                         <Card {...el} />
