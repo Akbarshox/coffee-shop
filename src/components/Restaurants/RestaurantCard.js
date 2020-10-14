@@ -5,7 +5,6 @@ import Card from "../UI/Card";
 import {Grid} from "@material-ui/core";
 import Wrapper from "../Wrapper";
 import style from './rest.module.css';
-import {Sugar} from "react-preloaders";
 
 const loadData = async ({playerId}, {signal}) => {
    try {
