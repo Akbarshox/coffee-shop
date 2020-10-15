@@ -7,10 +7,6 @@
 }
 
 .scrollbar {
-    width: 40px;
-    height: auto;
-    padding: 14px;
-    border: 1px solid #aaa;
     outline: none;
     margin: 5px 20px;
     user-select: none;
@@ -18,8 +14,15 @@
     border-radius: 5px;
 }
 
-.scrollbar:hover {
+
+.scrollbar img:hover {
     background: #FFE800;
+    border-radius: 10px;
+}
+
+.scrollbar p {
+    font-size: 14px;
+    text-align: center;
 }
 
 .arrow {
@@ -30,6 +33,7 @@
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 #ddd;
     cursor: pointer;
+    margin-top: -40px;
 }
 
 .arrow img {
@@ -45,7 +49,7 @@
     .hr {
         border: none;
         background: #ddd;
-        height: 1px ;
+        height: 1px;
     }
 }
 

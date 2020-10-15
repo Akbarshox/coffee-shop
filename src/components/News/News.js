@@ -11,7 +11,7 @@ export default function News() {
    return (
       <Wrapper>
          <div className={style.main}>
-            <p>Новости и акции</p>
+            <p>Новости и акции (Тут может быть черный бэкграунд это баг пакета)</p>
             <div className={style.comp}>
                <Carousel autoPlay showArrows={false} showIndicators={false} showStatus={false}
                          showThumbs={false} infiniteLoop={true} transitionTime={500} interval={5000} swipeable={true}

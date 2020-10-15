@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "image": "https://express24.uz/upload/uf/50c/50cc48ba7bd8f0f8674da4f37cd8a92e.svg",
+    "name": "Новинки"
+  },
+  {
+    "id": 2,
+    "image": "https://express24.uz/upload/uf/c40/c4071f3345a5d7e345b81b7acce4ec39.svg",
+    "name": "Пиццерия"
+  },
+  {
+    "id": 3,
+    "image": "https://express24.uz/upload/uf/8d2/8d27662bba39d08eafd4bd846d6652e8.svg",
+    "name": "Fast Food"
+  },
+  {
+    "id": 4,
+    "image": "https://express24.uz/upload/uf/8fb/8fb3fc14237f35da4b869eb93662d1a0.svg",
+    "name": "Национальная"
+  },
+  {
+    "id": 5,
+    "image": "https://express24.uz/upload/uf/611/611e66877a3abf13310c6a82abc2dc42.svg",
+    "name": "Европейская"
+  },
+  {
+    "id": 6,
+    "image": "https://express24.uz/upload/uf/468/4688fd3d435dfe0fed8492429bf6d5cc.svg",
+    "name": "Азиатская"
+  },
+  {
+    "id": 7,
+    "image": "https://express24.uz/upload/uf/ceb/cebde57fcae11f2ccbe159f9d045c240.svg",
+    "name": "Кофейня"
+  },
+  {
+    "id": 8,
+    "image": "https://express24.uz/upload/uf/51f/51f3aa300d8c4680f2b4fa315f1bde0e.svg",
+    "name": "Кондитерская"
+  },
+  {
+    "id": 9,
+    "image": "https://express24.uz/upload/uf/dcc/dccd463f0e8bb0410dfea2e00ff37c6c.svg",
+    "name": "Мороженое"
+  },
+  {
+    "id": 10,
+    "image": "https://express24.uz/upload/uf/3aa/3aa419bf75a8be28beaa47f1292f6a3e.svg",
+    "name": "Барбекю"
+  },
+  {
+    "id": 11,
+    "image": "https://express24.uz/upload/uf/467/4677b732740072db3030b7872be7c218.svg",
+    "name": "Здоровье"
+  }
+]

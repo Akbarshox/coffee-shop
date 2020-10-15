@@ -7,6 +7,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/5f0/720_330_0/5f06670e64f5ef5311709b40cde84d98.jpg",
     "delivery": "5000",
+    "categoryId": 1,
     "description": "Истинная итальянская пицца!\nЕсли Вам нужны одноразовые приборы, просим Вас указать необходимое количество"
   },
   {
@@ -17,6 +18,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/658/720_330_0/65810486188a9eea6b69f574ee8966a8.jpg",
     "delivery": " 1 200",
+    "categoryId": [2],
     "description": "WOOTUZ – один из лидеров по онлайн продаж электроники  среди розничных сетей Ташкента.\nДома и на работе, в кафе и самолёте – покупайте электронику в интернет-магазине.азине.\n\nДоставка осуществляется в течение 3 дней с момента поступление заказа!"
   },
   {
@@ -27,6 +29,7 @@
     "minPrice": 50000,
     "image": "https://express24.uz/upload/resize_cache/iblock/e54/720_330_0/e54433e2dcff3790f2f1daeac4444d1c.png",
     "delivery": "2 600",
+    "categoryId": [3],
     "description": "Oshpaz - это самый настоящий узбекский плов, приготовленный лучшими руками по лучшим рецептам из лучших продуктов."
   },
   {
@@ -37,6 +40,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/d85/720_330_0/d85eda6eb4696725c3651cda92ea9605.png",
     "delivery": "2 900",
+    "categoryId": [4] ,
     "description": "Если Вам нужны одноразовые приборы, просим Вас указать необходимое количество"
   },
   {
@@ -47,16 +51,18 @@
     "minPrice": 65000,
     "image": "https://express24.uz/upload/resize_cache/iblock/f11/720_330_0/f11a657fed5a287bb1f5978fb8e03838.JPG",
     "delivery": "Бесплатно",
+    "categoryId": [3],
     "description": "Если Вам нужны одноразовые приборы, просим Вас указать необходимое количество"
   },
   {
     "id": 6,
     "logo":  "https://express24.uz/upload/resize_cache/iblock/3ca/180_180_0/3ca293de1647f6e4179769122523e999.jpeg",
     "name": "Angel's Pizza",
-    "title": "Fast | FoodЕвропейская | Пиццерия",
+    "title": "Fast Food | Европейская | Пиццерия",
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/400/720_330_0/40080e7345e77b103725ac3cbf8dd8a3.jpg",
     "delivery": "Бесплатно",
+    "categoryId": [2, 4, 1],
     "description": "Angel’s Pizza от легендарного Angel’s Food возвращается с особым рецептом и с гордым лозунгом: «Попробуй найти лучше!» Since 2001"
   },
   {
@@ -67,6 +73,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/400/720_330_0/40080e7345e77b103725ac3cbf8dd8a3.jpg",
     "delivery": 2900,
+    "categoryId":  [1, 4],
     "description": ""
   },
   {
@@ -77,16 +84,18 @@
     "minPrice": 0,
     "image": "https://express24.uz/upload/resize_cache/iblock/433/720_330_0/433665e4d2f1ed49669cdc106abeff78.jpg",
     "delivery": "10 300",
+    "categoryId": [5],
     "description": "Традиция японской кухни. Гармония свежих продуктов и ярких идей лучших поваров современности!"
   },
   {
     "id": 9,
     "logo":  "https://express24.uz/upload/resize_cache/iblock/ecf/180_180_0/ecff426dff1031740156b1c524d61174.png",
     "name": "CookBook",
-    "title": "Кофейня | Европейская | Кондитерская | МороженоеНовинки",
+    "title": "Кофейня | Европейская | Кондитерская | Мороженое",
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/b22/720_330_0/b2202091fda886807ae388a44ece7d4a.JPG",
     "delivery": "2 800",
+    "categoryId": [6, 4, 7, 8],
     "description": "Кафе с большим выбором интересных блюд и кондитерских изделий."
   },
   {
@@ -97,16 +106,18 @@
     "minPrice": 0,
     "image": "https://express24.uz/upload/resize_cache/iblock/8e0/720_330_0/8e077dd5f0dcb3e35e7643df21c94613.jpg",
     "delivery": "12 500",
+    "categoryId":  [],
     "description": ""
   },
   {
     "id": 11,
     "logo":  "https://express24.uz/upload/resize_cache/iblock/c1f/180_180_0/c1fe903b5dc131e892076bafed428f36.png",
     "name": "Jumanji",
-    "title": "АзиатскаяЕвропейская",
+    "title": "Азиатская | Европейская",
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/d21/720_330_0/d2107a78a4ea6eea3061b9de820b358f.jpg",
     "delivery": "2 600",
+    "categoryId": [5, 4],
     "description": "Меню ресторана «Jumanji» представляет собой переплетение кулинарных традиций различных кухонь мира. Благодаря этому здесь можно каждый раз устраивать себе дни разных стран или целых регионов: Средиземноморья, Индокитая, Восточной Европы и Центральной Азии. Именно так мы представляем себе понятие «фьюжн-кухня»."
   },
   {
@@ -117,6 +128,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/39a/720_330_0/39a7111c40b47b53c98014806b64b891.jpg",
     "delivery": "4 8000",
+    "categoryId": [3, 9],
     "description": "Вкусные и сочные шашлыки."
   },
   {
@@ -127,6 +139,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/94c/720_330_0/94c9e23d0c470917b08f40924360f87b.jpg",
     "delivery": "2 3000",
+    "categoryId": [3],
     "description": "Большой ассортимент блюд узбекской национальной кухни и не только."
   },
   {
@@ -137,6 +150,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/693/720_330_0/693207bd9103b9057473faad5844a1cb.jpg",
     "delivery": "6000",
+    "categoryId": [6, 4, 7, 8],
     "description": "Кафе с большим выбором интересных блюд и кондитерских изделий."
   },
   {
@@ -147,6 +161,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/426/720_330_0/4269062ec728cb5762addcf71e2d2f89.jpg",
     "delivery": "7 400",
+    "categoryId": [3],
     "description": "Описание отсутствует"
   },
   {
@@ -157,6 +172,7 @@
     "minPrice": 50000,
     "image": "https://express24.uz/upload/resize_cache/iblock/cdd/720_330_0/cdd23bca4d48715ae1a39bb97bd3ac0a.jpg",
     "delivery": "1 9000",
+    "categoryId": [2],
     "description": "ЧЕБУ Choy - это быстрая и вкусная еда."
   },
   {
@@ -167,6 +183,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/6d9/720_330_0/6d94fc49818de72f1dbaf23773077779.jpg",
     "delivery": "5000",
+    "categoryId": [4],
     "description": "Be.Kitchen: будь со вкусом - попробуй эмоции на вкус!\nЕсли Вам нужны одноразовые приборы, просим Вас указать необходимое количество."
   },
   {
@@ -177,6 +194,7 @@
     "minPrice": 3000,
     "image": "https://express24.uz/upload/resize_cache/iblock/681/720_330_0/68145a2e9468cdc432cfa32212b91bfc.jpg",
     "delivery": " 7 500",
+    "categoryId":  [4, 3],
     "description": "Семейный ресторан, с кухней смешанных направлений."
   },
   {
@@ -187,6 +205,7 @@
     "minPrice": 50000,
     "image": "https://express24.uz/upload/resize_cache/iblock/c6f/720_330_0/c6fc506844a039ba43d901aace54e41a.jpg",
     "delivery": "5000",
+    "categoryId": [1, 4],
     "description": ""
   },
   {
@@ -197,6 +216,7 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/693/720_330_0/693207bd9103b9057473faad5844a1cb.jpg",
     "delivery": "4 900",
+    "categoryId": [4, 9],
     "description": ""
   },
   {
@@ -207,16 +227,18 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/19c/720_330_0/19ca83e5b87c19349541457fe4f0dc92.jpg",
     "delivery": "7000",
+    "categoryId": [4],
     "description": ""
   },
   {
     "id": 22,
     "logo":  "https://express24.uz/upload/resize_cache/iblock/552/180_180_0/5527265cf46d7302dd7849ad9fd625aa.png",
     "name": "Multi Mafé\n",
-    "title": "Кофейня | Европейская | Пиццерия | Кондитерская | БарбекюНовинки",
+    "title": "Кофейня | Европейская | Пиццерия | Кондитерская | Барбекю | Новинки",
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/a26/720_330_0/a268e535a4d04b8eb169d25c81598f12.jpg",
     "delivery": "9 500",
+    "categoryId": [6, 4, 1, 2, 9],
     "description": "Multi Mafé - это аппетитные закуски, свежие салаты, горячие блюда с манящим ароматом, сочные стейки и мясо на мангале, традиционная паста, различные виды пиццы, и кондитерские изделия на любой вкус."
   },
   {
@@ -227,16 +249,18 @@
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/974/720_330_0/97405bb35ead3e697790c019ee13a362.jpg",
     "delivery": "3 100",
+    "categoryId": [4, 1],
     "description": ""
   },
   {
     "id": 24,
     "logo":  "https://express24.uz/upload/resize_cache/iblock/883/180_180_0/883ab632cd131fe031ad61581c5a3774.PNG",
     "name": "Broccoli",
-    "title": "ЕвропейскаяЗдоровье",
+    "title": "Европейская | Здоровье",
     "minPrice": 0,
     "image": "https://express24.uz/upload/resize_cache/iblock/299/720_330_0/2992f18184973030baa5350152181435.JPG",
     "delivery": "11 700",
+    "categoryId": [4, 11],
     "description": ""
   },
   {
@@ -247,6 +271,7 @@
     "minPrice": 50000,
     "image": "https://express24.uz/upload/resize_cache/iblock/6aa/720_330_0/6aa58dc4b4c0b472999d7d016bf501e5.png",
     "delivery": "19 000",
+    "categoryId":  [1],
     "description": "ЧЕБУ Choy - это быстрая и вкусная еда."
   }
 ]
