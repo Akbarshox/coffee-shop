@@ -7,13 +7,12 @@
 }
 
 .scrollbar {
-    outline: none;
+    outline: none!important;
     margin: 5px 20px;
     user-select: none;
     cursor: pointer;
     border-radius: 5px;
 }
-
 
 .scrollbar img:hover {
     background: #FFE800;

@@ -8,7 +8,7 @@ import Wrapper from "../Wrapper";
 import style from './rest.module.css';
 import {Store} from "../../Store";
 
-const loadData = async ({dispatch}) => {
+const loadData = async () => {
    try {
       const res = await axios.get('/data.json');
       return res.data
@@ -18,29 +18,28 @@ const loadData = async ({dispatch}) => {
 }
 
 export default function Restaurants() {
-   const {state, dispatch} = useContext(Store);
+   const {state} = useContext(Store);
    const {data, error, isPending} = useAsync({promiseFn: loadData});
    const [searchResult, setSearchResult] = useState(data);
 
    useEffect(() => {
-      dispatch({type: 'FETCH', payload: data})
-   }, [dispatch]);
-
-   // useEffect(() => {
-   //    setSearchResult(data);
-   // }, [data]);
-
-   useEffect(() => {
-      const sortBy = (data, filterBy) => {
-         if (filterBy) {
-            return filter(data, {'categoryId': filterBy});
-         } else {
-            return data;
+      if (state.filterBy.length !== 0) {
+         const sortBy = (data, filterBy) => {
+            let collection = [];
+            filter(data, function (o) {
+               o.categoryId.forEach(el => {
+                  if (el.id === parseInt(filterBy)) {
+                     collection.push(o)
+                     return setSearchResult(collection)
+                  }
+               })
+            })
          }
-      };
-      setSearchResult(sortBy(data, state.filterBy))
+         sortBy(data, state.filterBy)
+      } else {
+         setSearchResult(data);
+      }
    }, [data, state.filterBy])
-   console.log(searchResult)
 
    if (isPending) return "loading"
    if (error) return `Something went wrong: ${error.message}`
