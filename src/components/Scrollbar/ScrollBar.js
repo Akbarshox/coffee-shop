@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import axios from "axios";
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 import {useAsync} from "react-async"
@@ -20,6 +20,8 @@ const loadData = async ({playerId}, {signal}) => {
 export default function ScrollBar() {
    const {data, error, isPending} = useAsync({promiseFn: loadData});
    const {dispatch} = useContext(Store);
+   const [active, setActive] = useState();
+
    const state = {
       dragging: true,
       alignCenter: true,
@@ -28,9 +30,12 @@ export default function ScrollBar() {
       scrollToSelected: true,
       scrollBy: 2,
    }
+
    const selected = (e) => {
-      dispatch({type: 'FILTER', payload: e})
+      dispatch({type: 'FILTER', payload: e});
+      setActive(e);
    }
+
    if (isPending) return "loading"
    if (error) return `Something went wrong: ${error.message}`
    if (data) {
@@ -43,7 +48,10 @@ export default function ScrollBar() {
                   arrowLeft={<div className={style.arrow}><img src={left} alt="<"/></div>}
                   arrowRight={<div className={style.arrow}><img src={right} alt=">"/></div>}
                   data={data.map((el, i) =>
-                     <div className={style.scrollbar} key={el.id}><img src={el.image} alt="item"/><p>{el.name}</p></div>
+                     <div className={style.scrollbar} key={el.id}>
+                        <img src={el.image} alt="item" className={el.id === parseInt(active) ? style.active : ''} />
+                        <p>{el.name}</p>
+                     </div>
                   )}
                />
             </div>

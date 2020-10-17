@@ -1,6 +1,13 @@
 .rest {
     padding: 15px;
 }
+
 .rest p {
     font-size: 21px;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
 }

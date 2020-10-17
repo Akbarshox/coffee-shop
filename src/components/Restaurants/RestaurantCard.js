@@ -7,6 +7,7 @@ import filter from 'lodash/filter';
 import Wrapper from "../Wrapper";
 import style from './rest.module.css';
 import {Store} from "../../Store";
+import Button from "../UI/Button";
 
 const loadData = async () => {
    try {
@@ -21,25 +22,33 @@ export default function Restaurants() {
    const {state} = useContext(Store);
    const {data, error, isPending} = useAsync({promiseFn: loadData});
    const [searchResult, setSearchResult] = useState(data);
+   const [offset, setOffset] = useState(0);
+   const extraData = 9;
 
    useEffect(() => {
-      if (state.filterBy.length !== 0) {
-         const sortBy = (data, filterBy) => {
+      const sortBy = (data, filterBy) => {
+         if (state.filterBy.length !== 0) {
             let collection = [];
             filter(data, function (o) {
                o.categoryId.forEach(el => {
                   if (el.id === parseInt(filterBy)) {
                      collection.push(o)
-                     return setSearchResult(collection)
                   }
                })
             })
+            return collection
+         } else {
+            return data
          }
-         sortBy(data, state.filterBy)
-      } else {
-         setSearchResult(data);
       }
-   }, [data, state.filterBy])
+      if (data) {
+         setSearchResult(sortBy(data, state.filterBy).slice(0, extraData + offset))
+      }
+   }, [data, state.filterBy, offset, extraData])
+   const handleClick = () => {
+      setOffset(offset + 3);
+      console.log(offset)
+   }
 
    if (isPending) return "loading"
    if (error) return `Something went wrong: ${error.message}`
@@ -55,6 +64,9 @@ export default function Restaurants() {
                      </Grid>
                   )}
                </Grid>
+            </div>
+            <div className={style.btn}>
+               <Button btnType="auth" clicked={() => handleClick()}>Показать еще</Button>
             </div>
          </Wrapper>
       )

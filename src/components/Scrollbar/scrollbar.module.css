@@ -17,6 +17,12 @@
 .scrollbar img:hover {
     background: #FFE800;
     border-radius: 10px;
+    transition: 0.2s;
+}
+
+.active {
+    background: #FFE800;
+    border-radius: 10px;
 }
 
 .scrollbar p {
