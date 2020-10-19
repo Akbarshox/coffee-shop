@@ -1,0 +1,57 @@
+.restInfo {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+    border-radius: 10px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.description li {
+    list-style-type: none;
+    padding: 1px;
+    color: #7a7a7a;
+    display: flex;
+    align-items: center;
+}
+
+.description li:nth-child(1) {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.description li:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description li:nth-child(4) img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.button {
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    .description li:nth-child(2) {
+        width: 180px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+

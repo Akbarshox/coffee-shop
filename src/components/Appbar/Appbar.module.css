@@ -83,6 +83,43 @@
     text-align: center;
 }
 
+.searchResult {
+    background: #fff;
+    position: absolute;
+    z-index: 10000;
+    padding: 10px;
+    margin-top: 5px;
+    width: 280px;
+    border-radius: 2px;
+    text-align: center;
+    overflow: scroll;
+    max-height: 200px;
+    margin-left: 2px;
+}
+
+.searchResult li {
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.searchResult img {
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.noResult {
+    position: absolute;
+    background: #fff;
+    list-style: none;
+    z-index: 1000000;
+
+}
+
 @media (max-width: 1000px) {
     .support {
         display: none;

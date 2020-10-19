@@ -1,6 +1,4 @@
 import React, {useContext, useEffect, useState} from "react";
-import {useAsync} from "react-async";
-import axios from 'axios';
 import Card from "../UI/Card";
 import {Grid} from "@material-ui/core";
 import filter from 'lodash/filter';
@@ -9,19 +7,9 @@ import style from './rest.module.css';
 import {Store} from "../../Store";
 import Button from "../UI/Button";
 
-const loadData = async () => {
-   try {
-      const res = await axios.get('/data.json');
-      return res.data
-   } catch (error) {
-      throw new Error(error.statusText)
-   }
-}
-
 export default function Restaurants() {
    const {state} = useContext(Store);
-   const {data, error, isPending} = useAsync({promiseFn: loadData});
-   const [searchResult, setSearchResult] = useState(data);
+   const [searchResult, setSearchResult] = useState(state.data);
    const [offset, setOffset] = useState(0);
    const extraData = 9;
 
@@ -41,17 +29,15 @@ export default function Restaurants() {
             return data
          }
       }
-      if (data) {
-         setSearchResult(sortBy(data, state.filterBy).slice(0, extraData + offset))
+      if (state.data) {
+         setSearchResult(sortBy(state.data, state.filterBy).slice(0, extraData + offset))
       }
-   }, [data, state.filterBy, offset, extraData])
+   }, [state.data, state.filterBy, offset, extraData])
    const handleClick = () => {
       setOffset(offset + 3);
       console.log(offset)
    }
 
-   if (isPending) return "loading"
-   if (error) return `Something went wrong: ${error.message}`
    if (searchResult)
       return (
          <Wrapper>
