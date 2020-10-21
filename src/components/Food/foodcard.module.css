@@ -3,7 +3,6 @@
 }
 
 .paragraph {
-    margin-top: 50px;
     font-size: 22px;
     font-weight: 500;
 }
@@ -33,4 +32,8 @@
     overflow: hidden;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.scrollTo {
+    height: 30px;
 }

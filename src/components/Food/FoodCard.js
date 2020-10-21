@@ -21,14 +21,15 @@ export default function FoodCard(props) {
          return setProducts(data);
       }
    }, [state.food, props.match.params.id])
-   console.log(products)
+
    if (products) {
       return (
          <Wrapper>
             <div className={style.main}>
                {products.map((el, i) =>
-                  <div key={i} style={{marginTop: 50}}>
-                     <p className={style.paragraph} id={el.id}>{el.name}</p>
+                  <div key={i} style={{marginTop: 50}} id={"u" + el.id}>
+                     <div className={style.scrollTo}/>
+                     <p className={style.paragraph}>{el.name}</p>
                      <Grid container spacing={3}>
                         {el.food.map((r, i) =>
                            <Grid key={i} item xs={12} sm={4} md={3}>

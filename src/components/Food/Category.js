@@ -33,7 +33,7 @@ export default function Category(props) {
    const selected = (e) => {
       setActive(e);
    }
-
+   console.log(active)
    if (data) {
       return (
          <Sticky>
@@ -44,11 +44,12 @@ export default function Category(props) {
                      {...states}
                      onSelect={(e) => selected(e)}
                      data={data.map((el, i) =>
-                        <ScrollIntoView selector={el.id}>
-                           <div className={style.scrollbar} key={i}>
-                              <Button btnType="category">{el.name}</Button>
-                           </div>
-                        </ScrollIntoView>
+                        <div className={style.scrollbar} key={i}>
+                           <ScrollIntoView selector={"#" + "u" + el.id}>
+                              <Button btnType="category"
+                                      style={parseInt(active) === i ? {background: '#ffe600'} : null}>{el.name}</Button>
+                           </ScrollIntoView>
+                        </div>
                      )}
                   />
                </Wrapper>

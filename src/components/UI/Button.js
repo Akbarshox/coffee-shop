@@ -7,6 +7,7 @@ export default function Button(props) {
          disabled={props.disabled}
          className={[styles.Button, styles[props.btnType]].join(' ')}
          onClick={props.clicked}
+         style={props.style}
       >
          {props.children}
       </button>
