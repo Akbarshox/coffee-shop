@@ -7,13 +7,17 @@ export const Store = createContext();
 
 const InitialState = {
    data: [],
+   food: [],
    filterBy: ''
 }
 
 const loadData = async () => {
    try {
-      const res = await axios.get('/data.json');
-      return res.data
+      const [res, food] = await Promise.all([
+         axios.get('/data.json'),
+         axios.get('/food.json')
+      ])
+      return [res.data, food.data]
    } catch (error) {
       throw new Error(error.statusText)
    }
@@ -25,10 +29,13 @@ export function StoreProvider(props) {
    const value = {state: state, dispatch: dispatch}
 
    useEffect(() => {
-      dispatch({type: 'FETCH', payload: data})
+      if (data) {
+         dispatch({type: 'FETCH', payload: data[0]})
+         dispatch({type: 'FOOD', payload: data[1]})
+      }
    }, [data]);
 
-   return(
+   return (
       <Store.Provider value={value}>{props.children}</Store.Provider>
    )
 }

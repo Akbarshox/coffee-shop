@@ -5,7 +5,10 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow: visible!important;
+}
+
+html {
+    overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -27,7 +30,7 @@ body {
 }
 
 ::-moz-scrollbar {
-    width: 4px;
+    /*width: 4px;*/
     background-color: #ffffff;
 }
 

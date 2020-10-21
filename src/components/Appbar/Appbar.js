@@ -65,7 +65,7 @@ export default function ButtonAppBar(props) {
       setTimeout(() => {
          setFocus(false);
          setSearchItem('');
-      }, 100)
+      }, 200)
    }
 
    return (

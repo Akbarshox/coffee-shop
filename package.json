@@ -20,7 +20,7 @@
     "react-responsive-carousel": "^3.2.10",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-sticky": "^6.0.3",
+    "react-scroll-into-view": "^1.8.2",
     "react-yandex-maps": "^4.4.0"
   },
   "scripts": {

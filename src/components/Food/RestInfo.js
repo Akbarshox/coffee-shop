@@ -2,9 +2,9 @@ import React, {useContext, useEffect, useState} from "react";
 import Wrapper from "../Wrapper";
 import Grid from "@material-ui/core/Grid";
 import style from './food.module.css';
-import Button from "../UI/Button";
 import {Store} from '../../Store';
 import delivery from '../../assets/images/delivery.svg';
+import Info from "./Info";
 
 export default function RestInfo(props) {
    const [rest, setRest] = useState();
@@ -32,14 +32,15 @@ export default function RestInfo(props) {
                            <li>{rest.name}</li>
                            <li>{rest.title}</li>
                            <li>Заказы от: {rest.minPrice} сум</li>
-                           <li><img src={delivery} alt="del"/>Сумма доставки: {rest.delivery} сум</li>
+                           {rest.delivery !== 'Бесплатно' ?
+                              <li><img src={delivery} alt="del"/>Сумма доставки: {rest.delivery} сум</li> :
+                              <li><img src={delivery} alt="del"/>Сумма доставки: {rest.delivery}</li>
+                           }
                         </ul>
                      </div>
                   </Grid>
                   <Grid item xs={12} md={6}>
-                     <div className={style.button}>
-                        <Button btnType="auth">Информация о заведении</Button>
-                     </div>
+                     <Info description={rest.description}/>
                   </Grid>
                </Grid>
             </div>

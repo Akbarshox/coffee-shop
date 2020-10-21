@@ -1,4 +1,33 @@
-.category {
-    /*position: static;*/
-    /*margin-bottom: 2200px;*/
+.stickyWrapper {
+    position: relative;
+    height: 3rem;
+}
+
+.sticky .stickyInner {
+    position: fixed;
+    top: -8px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #fff;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.stickyInner hr {
+    border: none;
+    height: 1px;
+    background: #bbb;
+}
+
+.scrollbar {
+    outline: none!important;
+    margin: 0 10px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 5px;
 }

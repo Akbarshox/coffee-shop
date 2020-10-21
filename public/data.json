@@ -130,11 +130,11 @@
   },
   {
     "id": 9,
-    "logo": "https://express24.uz/upload/resize_cache/iblock/ecf/180_180_0/ecff426dff1031740156b1c524d61174.png",
-    "name": "CookBook",
+    "logo": "https://express24.uz/upload/resize_cache/iblock/679/180_180_0/67916edbb359856131980e3066c21c10.jpg",
+    "name": "InHouse",
     "title": "Кофейня | Европейская | Кондитерская | Мороженое",
     "minPrice": 70000,
-    "image": "https://express24.uz/upload/resize_cache/iblock/b22/720_330_0/b2202091fda886807ae388a44ece7d4a.JPG",
+    "image": "https://express24.uz/upload/resize_cache/iblock/8e7/720_330_0/8e7918816df6276404390bb72e1af3bd.jpg",
     "delivery": "2 800",
     "categoryId": [
       {
@@ -220,7 +220,7 @@
   },
   {
     "id": 14,
-    "logo": "https://express24.uz/upload/resize_cache/iblock/ecf/60_60_0/ecff426dff1031740156b1c524d61174.png",
+    "logo": "https://express24.uz/upload/resize_cache/iblock/ecf/180_180_0/ecff426dff1031740156b1c524d61174.png",
     "name": "CookBook",
     "title": "Кофейня | Европейская | Кондитерская | Мороженое | Новинки",
     "minPrice": 70000,

@@ -123,5 +123,3130 @@
         ]
       }
     ]
+  },
+  {
+    "id": 2,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "categories": [
+      {
+        "name": "Приборы",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "categories": [
+      {
+        "name": "Приборq",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "categories": [
+      {
+        "name": "Приборq",
+        "id": 1,
+        "food": [
+          {
+            "name": "Вилка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/d53/450_300_0/d5362fdc266ef46e69fc344f6e06de94.jpg",
+            "price": 0
+          },
+          {
+            "name": "Нож одноразовый",
+            "image": "https://express24.uz/upload/resize_cache/iblock/bb2/450_300_0/bb29b575b228edc81bfe518ab7f2e8f7.jpg",
+            "price": 0
+          },
+          {
+            "name": "Ложка одноразовая",
+            "image": "https://express24.uz/upload/resize_cache/iblock/c34/450_300_0/c3464953aeedaac876569a664a8d4c76.jpg",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "Акции и скидки",
+        "id": 2,
+        "food": [
+          {
+            "name": "Акция \"Pizza party\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "price": 0
+          },
+          {
+            "name": "Сет \"Классика\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "price": 89900
+          },
+          {
+            "name": "Сет \"Модерн\"",
+            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "price": 109000
+          }
+        ]
+      },
+      {
+        "name": "Салаты",
+        "id": 3,
+        "food": [
+          {
+            "name": "Микс салат",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2d7/450_300_0/2d70a9cf078ab9f5728d7cd1bf8e4d31.JPG",
+            "price": 15000
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "id": 4,
+        "food": [
+          {
+            "name": "Combo (Комбо)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "price": 45000
+          },
+          {
+            "name": "Margarita (Маргарита)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "price": 34000
+          },
+          {
+            "name": "Pepperoni (Пепперони)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "price": 41000
+          },
+          {
+            "name": "Roastbeef",
+            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "price": 48000
+          },
+          {
+            "name": "Vegetarian (Вегетарианская)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "price": 36000
+          },
+          {
+            "name": "Villager",
+            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "price": 45000
+          },
+          {
+            "name": "4 cheese (Сырная - 4 сыра)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "price": 42000
+          },
+          {
+            "name": "Сhicken (Куриная)",
+            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "price": 41000
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "id": 5,
+        "food": [
+          {
+            "name": "Coca-Cola",
+            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "price": 9000
+          },
+          {
+            "name": "Nestle",
+            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "price": 3000
+          },
+          {
+            "name": "Pepsi",
+            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "price": 7000
+          }
+        ]
+      }
+    ]
   }
 ]
