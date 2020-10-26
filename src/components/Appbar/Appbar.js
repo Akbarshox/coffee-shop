@@ -105,8 +105,18 @@ export default function ButtonAppBar(props) {
                   {user ? <Account/> : <span className={style.link}><SignIn/></span>}
                   <div className={style.inputMobile}>
                      <img src={search} alt="search"/>
-                     <input type="text" name="search" placeholder="Search.."
+                     <input type="text" name="search" placeholder="Search.." onFocus={onFocus} onBlur={onBlur}
                             value={searchItem} onChange={(e) => setSearchItem(e.target.value)}/>
+                     <div className={style.fade}/>
+                     <div style={focus === false ? {display: 'none'} : {display: 'flex'}}>
+                        <div className={searchResult && searchItem ? style.searchResult : null}>
+                           {searchResult && searchItem ? searchResult.map((e, i) =>
+                              <Link to={`/restaurant/${e.id}`} key={i}>
+                                 <li>{e.name}</li>
+                              </Link>
+                           ) : null}
+                        </div>
+                     </div>
                   </div>
                </Toolbar>
             </Wrapper>
