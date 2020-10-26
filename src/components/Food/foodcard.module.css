@@ -21,6 +21,7 @@
     width: 100%;
     height: 200px;
     border-radius: 5px;
+    position: relative;
 }
 
 .image img {
@@ -36,4 +37,76 @@
 
 .scrollTo {
     height: 30px;
+}
+
+@media (min-width: 600px) {
+    /* --------- hover button ---------*/
+    .image:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0);
+        transition: 0.5s;
+    }
+
+    .image:hover::before {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .image img {
+        display: block;
+    }
+
+    .order {
+        position: absolute;
+        top: 80%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+
+    .image:hover .order {
+        opacity: 1;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        display: flex;
+        align-items: center;
+    }
+
+    .image {
+        min-width: 40%;
+        max-width: 40%;
+        height: auto;
+        margin-right: 5%;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .card h3 {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 14px;
+        position: absolute;
+        left: 46%;
+        margin-top: 35px;
+    }
+
+    .order {
+        display: none;
+    }
 }
