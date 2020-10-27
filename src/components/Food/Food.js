@@ -1,7 +1,7 @@
 import React from 'react';
-import RestInfo from "./RestInfo";
-import Category from "./Category";
-import FoodCard from "./FoodCard";
+import RestInfo from "./Info/RestInfo";
+import Category from "./Category/Category";
+import FoodCard from "./Card/FoodCard";
 
 export default function Food(props) {
    window.scrollTo(0, 0)

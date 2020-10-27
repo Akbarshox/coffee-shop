@@ -1,8 +1,8 @@
 import React from 'react';
 import {withStyles} from '@material-ui/core/styles';
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
 import Menu from '@material-ui/core/Menu';
-import style from "./food.module.css";
+import style from "../food.module.css";
 
 const StyledMenu = withStyles({
    paper: {

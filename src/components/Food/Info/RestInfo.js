@@ -1,9 +1,9 @@
 import React, {useContext, useEffect, useState} from "react";
-import Wrapper from "../Wrapper";
+import Wrapper from "../../Wrapper";
 import Grid from "@material-ui/core/Grid";
-import style from './food.module.css';
-import {Store} from '../../Store';
-import delivery from '../../assets/images/delivery.svg';
+import style from '../food.module.css';
+import {Store} from '../../../Store';
+import delivery from '../../../assets/images/delivery.svg';
 import Info from "./Info";
 
 export default function RestInfo(props) {

@@ -11,11 +11,11 @@ export default function News() {
    return (
       <Wrapper>
          <div className={style.main}>
-            <p>Новости и акции (Тут может быть черный бэкграунд это баг пакета)</p>
+            <p>Новости и акции</p>
             <div className={style.comp}>
                <Carousel autoPlay showArrows={false} showIndicators={false} showStatus={false}
                          showThumbs={false} infiniteLoop={true} transitionTime={500} interval={5000} swipeable={true}
-                         emulateTouch={true} renderItem={item => <div style={{ background: "white" }}>{item}</div>}>
+                         emulateTouch={true} renderItem={item => <div style={{background: "white"}}>{item}</div>}>
                   {NewsData.map((el, i) =>
                      <Grid container spacing={3} key={i} className={style.carousel}>
                         <Grid item xs={12} sm={4}>

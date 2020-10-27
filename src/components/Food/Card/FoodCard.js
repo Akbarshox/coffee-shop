@@ -1,9 +1,10 @@
 import React, {useContext, useEffect, useState} from "react";
 import {Grid} from "@material-ui/core";
-import {Store} from "../../Store";
-import Wrapper from "../Wrapper";
+import {Store} from "../../../Store";
+import Wrapper from "../../Wrapper";
 import style from './foodcard.module.css';
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
+import CartModal from "../AddToCart/CartModal";
 
 export default function FoodCard(props) {
    const {state} = useContext(Store);
@@ -23,9 +24,10 @@ export default function FoodCard(props) {
       }
    }, [state.food, props.match.params.id])
 
-   const handleOrder = (e) => {
+   function handleOrder(e) {
       console.log(e)
    }
+
    if (products) {
       return (
          <Wrapper>
@@ -40,8 +42,8 @@ export default function FoodCard(props) {
                               <div className={style.card}>
                                  <div className={style.image}>
                                     <img src={r.image} alt="img"/>
-                                    <div className={style.order} onClick={handleOrder.bind(r)}>
-                                       <Button btnType="order">Заказать</Button>
+                                    <div className={style.order}>
+                                       <CartModal {...r}/>
                                     </div>
                                  </div>
                                  <h3>{r.name}</h3>

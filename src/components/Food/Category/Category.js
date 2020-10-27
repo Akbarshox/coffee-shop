@@ -2,9 +2,9 @@ import React, {useContext, useEffect, useState} from 'react';
 import ScrollMenu from "react-horizontal-scrolling-menu";
 import Sticky from "./Sticky";
 import style from './category.module.css';
-import Wrapper from "../Wrapper";
-import Button from "../UI/Button";
-import {Store} from "../../Store";
+import Wrapper from "../../Wrapper";
+import Button from "../../UI/Button";
+import {Store} from "../../../Store";
 import ScrollIntoView from "react-scroll-into-view";
 
 export default function Category(props) {
