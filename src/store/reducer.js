@@ -6,5 +6,7 @@ export default function reducer(state, action) {
          return {...state, data: action.payload};
       case 'FOOD':
          return {...state, food: action.payload}
+      case 'ADD-TO-CART':
+         return {...state, addToCart: [...state.addToCart, action.payload]}
    }
 }

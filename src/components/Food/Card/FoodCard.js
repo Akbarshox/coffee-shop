@@ -3,12 +3,13 @@ import {Grid} from "@material-ui/core";
 import {Store} from "../../../Store";
 import Wrapper from "../../Wrapper";
 import style from './foodcard.module.css';
-import Button from "../../UI/Button";
 import CartModal from "../AddToCart/CartModal";
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 export default function FoodCard(props) {
    const {state} = useContext(Store);
    const [products, setProducts] = useState();
+   const matches = useMediaQuery('(max-width:600px)');
 
    useEffect(() => {
       if (state.food) {
@@ -24,10 +25,6 @@ export default function FoodCard(props) {
       }
    }, [state.food, props.match.params.id])
 
-   function handleOrder(e) {
-      console.log(e)
-   }
-
    if (products) {
       return (
          <Wrapper>
@@ -39,16 +36,27 @@ export default function FoodCard(props) {
                      <Grid container spacing={3}>
                         {el.food.map((r, i) =>
                            <Grid key={i} item xs={12} sm={4} md={3}>
-                              <div className={style.card}>
-                                 <div className={style.image}>
-                                    <img src={r.image} alt="img"/>
-                                    <div className={style.order}>
-                                       <CartModal {...r}/>
+                              {matches === false ?
+                                 <div className={style.card}>
+                                    <div className={style.image}>
+                                       <img src={r.image} alt="img"/>
+                                       <div className={style.order}>
+                                          <CartModal {...r}/>
+                                       </div>
                                     </div>
+                                    <h3>{r.name}</h3>
+                                    <p>{r.price} сум</p>
                                  </div>
-                                 <h3>{r.name}</h3>
-                                 <p>{r.price} сум</p>
-                              </div>
+                                 : <div className={style.card}>
+                                    <div className={style.image}>
+                                       <img src={r.image} alt="img"/>
+                                       {/*<div className={style.order}>*/}
+                                       {/*   <CartModal {...r}/>*/}
+                                       {/*</div>*/}
+                                    </div>
+                                    <h3>{r.name}</h3>
+                                    <p>{r.price} сум</p>
+                                 </div>}
                            </Grid>
                         )}
                      </Grid>
