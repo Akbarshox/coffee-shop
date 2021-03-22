@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "logo": "https://express24.uz/upload/resize_cache/iblock/697/180_180_0/697c22b2aa0664314d752ae84766fb98.png",
+    "logo": "https://media.express24.uz/r/180/180/upload/iblock/a09/a09ba6c24cccb8fc21eb6959c091f7b9.jpg",
     "name": "Pizza village",
     "title": "Пиццерия",
     "minPrice": 70000,
-    "image": "https://express24.uz/upload/resize_cache/iblock/5f0/720_330_0/5f06670e64f5ef5311709b40cde84d98.jpg",
-    "delivery": "5000",
+    "image": "https://media.express24.uz/r/1800/1125/upload/iblock/658/65810486188a9eea6b69f574ee8966a8.jpg",
+    "delivery": "10300",
     "categoryId": [
       {
         "id": 1
@@ -20,7 +20,7 @@
     "name": "Chef Burger\n",
     "title": "Fast Food | Новинки",
     "minPrice": 70000,
-    "image": "https://express24.uz/upload/resize_cache/iblock/e54/720_330_0/e5474a658e8da1b4e81bdff01bc789ff.jpg",
+    "image": "https://media.express24.uz/r/1280/698/upload/iblock/279/2795e470e2de1efca1e8ac046dedaadf.jpg",
     "delivery": " 1 200",
     "categoryId": [
       {
@@ -97,7 +97,7 @@
   },
   {
     "id": 7,
-    "logo": "https://express24.uz/upload/resize_cache/iblock/dba/360_400_0/dbae22b8f1a25fd24a1e2b2e37a3f89c.jpg",
+    "logo": "https://media.express24.uz/r/445/445/upload/iblock/dba/dbae22b8f1a25fd24a1e2b2e37a3f89c.jpg",
     "name": "Craft Pizza\n",
     "title": "Европейская | Пиццерия",
     "minPrice": 70000,
@@ -437,7 +437,7 @@
   {
     "id": 26,
     "logo": "https://express24.uz/upload/resize_cache/iblock/697/180_180_0/697c22b2aa0664314d752ae84766fb98.png",
-    "name": "Pizza village",
+    "name": "Street 77",
     "title": "Пиццерия",
     "minPrice": 70000,
     "image": "https://express24.uz/upload/resize_cache/iblock/5f0/720_330_0/5f06670e64f5ef5311709b40cde84d98.jpg",
