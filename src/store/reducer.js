@@ -7,6 +7,14 @@ export default function reducer(state, action) {
       case 'FOOD':
          return {...state, food: action.payload}
       case 'ADD-TO-CART':
-         return {...state, addToCart: [...state.addToCart, action.payload]}
+         if (state.addToCart.length !== 0) {
+            return {
+               ...state, addToCart: [...state.addToCart, state.addToCart.map(v =>
+                  v.name === action.payload.name && v.price === action.payload.price ?
+                     {["count"]: v.count + 1, ["totalPrice"]: (v.count + 1) * v.price} : v
+               )]
+            }
+         } else
+            return {...state, addToCart: [...state.addToCart, action.payload]}
    }
 }

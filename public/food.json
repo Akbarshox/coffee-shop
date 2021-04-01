@@ -31,17 +31,17 @@
         "food": [
           {
             "name": "Акция \"Pizza party\"",
-            "image": "https://express24.uz/upload/resize_cache/iblock/1bd/450_300_0/1bd3cc5428b32c687fbfad21c91f1434.jpg",
+            "image": "https://media.express24.uz/r/1035/450/upload/iblock/e47/e47c6a07bd59a057de78182b25a7e3d5.jpg",
             "price": 0
           },
           {
             "name": "Сет \"Классика\"",
-            "image": "https://express24.uz/upload/resize_cache/iblock/328/450_300_0/328e911f6cf931ed4785cc03c66e1df9.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/794/794de086d423e9c6571bfd6471161414.jpg",
             "price": 89900
           },
           {
             "name": "Сет \"Модерн\"",
-            "image": "https://express24.uz/upload/resize_cache/iblock/127/450_300_0/1274eeb488f29487e49460febf83bb49.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/04b/04b9e3931e576fcdd05fcf3bb5aee1ec.jpg",
             "price": 109000
           }
         ]
@@ -65,42 +65,42 @@
         "food": [
           {
             "name": "Combo (Комбо)",
-            "image": "https://express24.uz/upload/resize_cache/iblock/485/450_300_0/4858243abc9889844e2ac3bedd5e89c0.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/b93/b9386d22fe42fda8c5c5424726e6e328.jpg",
             "price": 45000
           },
           {
             "name": "Margarita (Маргарита)",
-            "image": "https://express24.uz/upload/resize_cache/iblock/b7f/450_300_0/b7ff40ae7b7841aeb130924a3749e25b.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/794/794de086d423e9c6571bfd6471161414.jpg",
             "price": 34000
           },
           {
             "name": "Pepperoni (Пепперони)",
-            "image": "https://express24.uz/upload/resize_cache/iblock/869/450_300_0/86992b743c47df6e8f780f3c3be39fc6.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/23b/23b2296bb2949222770058a401aae366.jpg",
             "price": 41000
           },
           {
             "name": "Roastbeef",
-            "image": "https://express24.uz/upload/resize_cache/iblock/ccb/450_300_0/ccbe55587fcc2fa7aeba06e74b15ba9c.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/915/91582ffdcc9d1b931d844d2784c058ce.jpg",
             "price": 48000
           },
           {
             "name": "Vegetarian (Вегетарианская)",
-            "image": "https://express24.uz/upload/resize_cache/iblock/2a1/450_300_0/2a1599a830dd386ffa2c7488605348fc.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/915/915b5110a1abea3930fd2bd7b27d3727.jpg",
             "price": 36000
           },
           {
             "name": "Villager",
-            "image": "https://express24.uz/upload/resize_cache/iblock/793/450_300_0/793d1bd71b9ecf078f0a30338d646772.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/a50/a50620a340c1985d64c0fc81a7ffab27.jpg",
             "price": 45000
           },
           {
             "name": "4 cheese (Сырная - 4 сыра)",
-            "image": "https://express24.uz/upload/resize_cache/iblock/688/450_300_0/688a74c33f04b42fd90cb4815d7e1598.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/e0d/e0d3adc468121195668fbb5c744cc2f8.jpg",
             "price": 42000
           },
           {
             "name": "Сhicken (Куриная)",
-            "image": "https://express24.uz/upload/resize_cache/iblock/279/450_300_0/2793b5727eb644e486de22fbda4d3bad.jpg",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/faa/faa2214ab3b359e006ef4d050a028fcd.jpg",
             "price": 41000
           }
         ]
@@ -112,17 +112,17 @@
         "food": [
           {
             "name": "Coca-Cola",
-            "image": "https://express24.uz/upload/resize_cache/iblock/739/450_300_0/739f40f57f63f44a43f0a8e2c80a6f50.png",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/588/588421e5ec8cf4e55340a22ba7e4a74e.jpg",
             "price": 9000
           },
           {
-            "name": "Nestle",
-            "image": "https://express24.uz/upload/resize_cache/iblock/f6c/450_300_0/f6cd1312c89e22f33d7734caea2e231d.png",
+            "name": "Bonaqua",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/938/938fe71c2b97fb63242349f4a4c53b33.jpg",
             "price": 3000
           },
           {
             "name": "Pepsi",
-            "image": "https://express24.uz/upload/resize_cache/iblock/3b5/450_300_0/3b5c21bab9cde69c3ccaaa605d0ab8a2.png",
+            "image": "https://media.express24.uz/r/450/300/upload/iblock/8e0/8e02b937142bf093f9578b935c693412.png",
             "price": 7000
           }
         ]
