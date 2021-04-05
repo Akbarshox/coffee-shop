@@ -28,7 +28,7 @@ export function StoreProvider(props) {
    const [state, dispatch] = useReducer(reducer, InitialState);
    const {data} = useAsync({promiseFn: loadData});
    const value = {state: state, dispatch: dispatch}
-   console.log(state);
+
    useEffect(() => {
       if (data) {
          dispatch({type: 'FETCH', payload: data[0]})

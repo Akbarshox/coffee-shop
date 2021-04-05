@@ -33,7 +33,7 @@ export default function Category(props) {
    const selected = (e) => {
       setActive(e);
    }
-   console.log(active)
+
    if (data) {
       return (
          <Sticky>
