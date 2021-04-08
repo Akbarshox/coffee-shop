@@ -50,9 +50,6 @@ export default function FoodCard(props) {
                                  : <div className={style.card}>
                                     <div className={style.image}>
                                        <img src={r.image} alt="img"/>
-                                       {/*<div className={style.order}>*/}
-                                       {/*   <CartModal {...r}/>*/}
-                                       {/*</div>*/}
                                     </div>
                                     <h3>{r.name}</h3>
                                     <p>{r.price} сум</p>

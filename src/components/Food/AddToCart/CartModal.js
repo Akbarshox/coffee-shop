@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import TransitionsModal from "../../UI/Modal";
 import Button from "../../UI/Button";
 import style from './modal.module.css';
@@ -41,7 +41,19 @@ export default function CartModal(props) {
       localStorage.setItem('orders', JSON.stringify(state.addToCart))
    }
 
-   console.log(state.addToCart)
+   function Count(data) {
+      let value
+      if (state.addToCart.length !== 0)
+         state.addToCart.map(v => {
+            if (v.name === data.name && v.price === data.price) {
+               value = v.count
+            } else
+               value = '1'
+         })
+      return value
+   }
+
+   console.log(JSON.parse(localStorage.getItem('orders')))
    return (
       <div>
          <div className={style.button}>
@@ -54,18 +66,16 @@ export default function CartModal(props) {
                <h2>{props.name}</h2>
                <h4>Количество</h4>
                <div className={style.price}>
-                  {state.addToCart.map(v =>
-                     <div className={style.price}>
-                        <p>{v.image === props.image && v.name === props.name ? v.count : null}</p>
-                        <p>{v.image === props.image && v.name === props.name ? v.price*v.count : null}</p>
-                     </div>
-                  )}
+                  <p>{Count(props)}</p>
+                  <p>{props.price * Count(props)}</p>
                   <span>
                      <Button btnType="PlusMinus" clicked={() => handleDeleteFromCart(props)}>-</Button>
                      <Button btnType="PlusMinus" clicked={() => handleAddToCart(props)}>+</Button>
-                     </span>
+                  </span>
                </div>
-               <Button btnType="auth" clicked={() => handleApproveOrder()}>Подтвердить</Button>
+               <div className={style.approve}>
+                  <Button btnType="auth" clicked={() => handleApproveOrder()}>Подтвердить</Button>
+               </div>
             </div>
          </TransitionsModal>
       </div>
