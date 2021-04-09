@@ -16,13 +16,13 @@ export default function CartModal(props) {
          if (!exists) {
             return dispatch({
                type: 'ADD-TO-CART',
-               payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1}
+               payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1, "restaurantId": props.match.params.id}
             })
          }
       } else
          return dispatch({
             type: 'ADD-TO-CART',
-            payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1}
+            payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1, "restaurantId": props.match.params.id}
          })
    };
    const handleClose = (e) => {
@@ -53,7 +53,7 @@ export default function CartModal(props) {
       return value
    }
 
-   console.log(JSON.parse(localStorage.getItem('orders')))
+   console.log(props)
    return (
       <div>
          <div className={style.button}>

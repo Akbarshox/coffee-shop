@@ -32,5 +32,7 @@ export default function reducer(state, action) {
             ...state,
             addToCart: state.addToCart.filter(v => v.name !== action.payload.name && v.price !== action.payload.price)
          }
+      case 'ORDERS':
+         return {...state, addToCart: action.payload}
    }
 }

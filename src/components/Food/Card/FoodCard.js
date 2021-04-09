@@ -41,7 +41,7 @@ export default function FoodCard(props) {
                                     <div className={style.image}>
                                        <img src={r.image} alt="img"/>
                                        <div className={style.order}>
-                                          <CartModal {...r}/>
+                                          <CartModal {...r} {...props}/>
                                        </div>
                                     </div>
                                     <h3>{r.name}</h3>
