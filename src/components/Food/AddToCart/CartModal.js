@@ -16,18 +16,22 @@ export default function CartModal(props) {
          if (!exists) {
             return dispatch({
                type: 'ADD-TO-CART',
-               payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1, "restaurantId": props.match.params.id}
+               payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1, "restaurantId": props.match.params.id, "confirmed": false}
             })
          }
       } else
          return dispatch({
             type: 'ADD-TO-CART',
-            payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1, "restaurantId": props.match.params.id}
+            payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1, "restaurantId": props.match.params.id, "confirmed": false}
          })
    };
    const handleClose = (e) => {
       setOpen(false);
-      return dispatch({type: 'REMOVE-FROM-CART', payload: e})
+      // state.addToCart.map(v => {
+      //    if (v.name !== e.name && v.price !== e.price) {
+      //       return dispatch({type: 'REMOVE-FROM-CART', payload: e})
+      //    }
+      // })
    };
 
    const handleAddToCart = (e) => {
@@ -53,7 +57,7 @@ export default function CartModal(props) {
       return value
    }
 
-   console.log(props)
+   console.log(state.addToCart)
    return (
       <div>
          <div className={style.button}>
