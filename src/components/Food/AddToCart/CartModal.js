@@ -16,22 +16,36 @@ export default function CartModal(props) {
          if (!exists) {
             return dispatch({
                type: 'ADD-TO-CART',
-               payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1, "restaurantId": props.match.params.id, "confirmed": false}
+               payload: {
+                  "name": e.name,
+                  "price": e.price,
+                  "image": e.image,
+                  "count": 1,
+                  "restaurantId": props.match.params.id,
+                  "confirmed": false
+               }
             })
          }
       } else
          return dispatch({
             type: 'ADD-TO-CART',
-            payload: {"name": e.name, "price": e.price, "image": e.image, "count": 1, "restaurantId": props.match.params.id, "confirmed": false}
+            payload: {
+               "name": e.name,
+               "price": e.price,
+               "image": e.image,
+               "count": 1,
+               "restaurantId": props.match.params.id,
+               "confirmed": false
+            }
          })
    };
    const handleClose = (e) => {
       setOpen(false);
-      // state.addToCart.map(v => {
-      //    if (v.name !== e.name && v.price !== e.price) {
-      //       return dispatch({type: 'REMOVE-FROM-CART', payload: e})
-      //    }
-      // })
+      state.addToCart.map(v => {
+         if (v.name !== e.name && v.price !== e.price && !v.confirmed) {
+            return dispatch({type: 'REMOVE-FROM-CART', payload: e})
+         }
+      })
    };
 
    const handleAddToCart = (e) => {
@@ -40,9 +54,9 @@ export default function CartModal(props) {
    const handleDeleteFromCart = (e) => {
       return dispatch({type: 'DECREMENT-FROM-CART', payload: e})
    }
-   const handleApproveOrder = () => {
+   const handleApproveOrder = (e) => {
+      dispatch({type: 'CONFIRM-ORDER', payload: e})
       setOpen(false)
-      localStorage.setItem('orders', JSON.stringify(state.addToCart))
    }
 
    function Count(data) {
@@ -78,7 +92,7 @@ export default function CartModal(props) {
                   </span>
                </div>
                <div className={style.approve}>
-                  <Button btnType="auth" clicked={() => handleApproveOrder()}>Подтвердить</Button>
+                  <Button btnType="auth" clicked={() => handleApproveOrder(props)}>Подтвердить</Button>
                </div>
             </div>
          </TransitionsModal>

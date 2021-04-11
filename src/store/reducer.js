@@ -32,6 +32,14 @@ export default function reducer(state, action) {
             ...state,
             addToCart: state.addToCart.filter(v => v.name !== action.payload.name && v.price !== action.payload.price)
          }
+      case 'CONFIRM-ORDER':
+         const confirm = state.addToCart.some((p) => p.name === action.payload.name && p.price === action.payload.price);
+         if (confirm) {
+            const addToCart = state.addToCart.map(v =>
+               v.name === action.payload.name && v.price === action.payload.price ? {...v, ["confirmed"]: true} : v
+            );
+            return {...state, addToCart}
+         }
       case 'ORDERS':
          return {...state, addToCart: action.payload}
    }
