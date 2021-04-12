@@ -5,7 +5,7 @@ import FoodCard from "./Card/FoodCard";
 import {Store} from "../../Store";
 
 export default function Food(props) {
-   window.scrollTo(0, 0)
+   // window.scrollTo(0, 0)
    const {state} = useContext(Store);
 
    useEffect(() => {

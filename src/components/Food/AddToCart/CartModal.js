@@ -42,7 +42,7 @@ export default function CartModal(props) {
    const handleClose = (e) => {
       setOpen(false);
       state.addToCart.map(v => {
-         if (v.name !== e.name && v.price !== e.price && !v.confirmed) {
+         if (!v.confirmed) {
             return dispatch({type: 'REMOVE-FROM-CART', payload: e})
          }
       })
@@ -71,7 +71,6 @@ export default function CartModal(props) {
       return value
    }
 
-   console.log(state.addToCart)
    return (
       <div>
          <div className={style.button}>
@@ -80,7 +79,7 @@ export default function CartModal(props) {
          <TransitionsModal open={open} handleClose={() => handleClose(props)}>
             <div className={style.modal}>
                <img src={props.image} alt="image" className={style.modalPic}/>
-               <img src={cancel} alt="" className={style.cancel} onClick={handleClose}/>
+               <img src={cancel} alt="" className={style.cancel} onClick={() => handleClose(props)}/>
                <h2>{props.name}</h2>
                <h4>Количество</h4>
                <div className={style.price}>

@@ -2,8 +2,9 @@ import React, {useContext} from 'react';
 import style from './cart.module.css';
 import cartBottom from '../../assets/images/cartBottom.svg';
 import {Store} from "../../Store";
+import {Link} from "react-router-dom";
 
-export default function CartBottom() {
+export default function CartBottom(props) {
    const {state} = useContext(Store);
    let cart = JSON.parse(localStorage.getItem('orders'))
 
@@ -29,16 +30,18 @@ export default function CartBottom() {
 
    if (state.addToCart.length > 0) {
       return (
-         <div className={[style.container, style.fixed].join(' ')}>
-            <p className={style.cartText}>
-               В вашей
-               корзине <b>{state.addToCart.length > 1 ? state.addToCart.length + ' товара' : state.addToCart.length + ' товар'}</b> на
-               сумму <b>{totalCount(state.addToCart)} сум</b>
-            </p>
-            <div className={style.cart}>
-               <img src={cartBottom} alt="" width={30}/> Корзина
+         <Link to={"/personal/cart"} style={{textDecoration: 'none'}}>
+            <div className={[style.container, style.fixed].join(' ')}>
+               <p className={style.cartText}>
+                  В вашей
+                  корзине <b>{state.addToCart.length > 1 ? state.addToCart.length + ' товара' : state.addToCart.length + ' товар'}</b> на
+                  сумму <b>{totalCount(state.addToCart)} сум</b>
+               </p>
+               <div className={style.cart}>
+                  <img src={cartBottom} alt="" width={30}/> Корзина
+               </div>
             </div>
-         </div>
+         </Link>
       )
    } else
       return ''
