@@ -5,17 +5,7 @@ import FoodCard from "./Card/FoodCard";
 import {Store} from "../../Store";
 
 export default function Food(props) {
-   // window.scrollTo(0, 0)
-   const {state} = useContext(Store);
 
-   useEffect(() => {
-      if (state.addToCart.length > 0) {
-         state.addToCart.map(v => {
-            if (v.confirmed === true)
-               return localStorage.setItem('orders', JSON.stringify(state.addToCart));
-         })
-      }
-   }, [state.addToCart])
    return (
       <>
          <RestInfo {...props}/>

@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
+import {Link} from "react-router-dom";
 import style from './cart.module.css';
 import cartBottom from '../../assets/images/cartBottom.svg';
 import {Store} from "../../Store";
-import {Link} from "react-router-dom";
 
 export default function CartBottom(props) {
    const {state} = useContext(Store);
@@ -28,9 +28,9 @@ export default function CartBottom(props) {
       return formatMoney(value)
    }
 
-   if (state.addToCart.length > 0) {
+   if (state.addToCart.length > 0 && props.match.url !== "/personal/cart") {
       return (
-         <Link to={"/personal/cart"} style={{textDecoration: 'none'}}>
+         <Link to={"/personal/cart"} style={{textDecoration: 'none', color: '#000'}}>
             <div className={[style.container, style.fixed].join(' ')}>
                <p className={style.cartText}>
                   В вашей
