@@ -5,6 +5,9 @@ import FoodCard from "./Card/FoodCard";
 import {Store} from "../../Store";
 
 export default function Food(props) {
+   useEffect(() => {
+      window.scroll(0, 0)
+   }, [props.match.path])
 
    return (
       <>

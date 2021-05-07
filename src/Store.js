@@ -2,11 +2,12 @@ import React, {createContext, useEffect, useReducer} from 'react';
 import reducer from './store/reducer';
 import axios from "axios";
 import {useAsync} from "react-async";
+import {Restaurants} from "./components/Data/Restaurants";
 
 export const Store = createContext();
 
 const InitialState = {
-   data: [],
+   data: Restaurants,
    food: [],
    filterBy: '',
    addToCart: []
@@ -32,7 +33,7 @@ export function StoreProvider(props) {
 
    useEffect(() => {
       if (data) {
-         dispatch({type: 'FETCH', payload: data[0]})
+         // dispatch({type: 'FETCH', payload: data[0]})
          dispatch({type: 'FOOD', payload: data[1]})
       }
       if (ls && state.addToCart.length === 0) {
