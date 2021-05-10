@@ -19,7 +19,7 @@ function App() {
          return localStorage.removeItem('orders')
       }
    }, [state.addToCart])
-   console.log(state.addToCart)
+
    return (
       <BrowserRouter>
          <Appbar/>

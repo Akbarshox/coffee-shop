@@ -35,3 +35,15 @@
     cursor: pointer;
     font-size: 16px;
 }
+
+.submit {
+    padding: 8px 30px;
+    border: 2px solid #d9ac12;
+    background: #ffce30;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.submit:hover{
+    background: #fdde7a;
+}

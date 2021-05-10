@@ -83,6 +83,17 @@
     opacity: 0.2;
 }
 
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-bottom: -10px;*/
+}
+
+.count p {
+    font-weight: bold;
+}
+
 @media (max-width: 620px) {
     .container {
         width: 90%;
@@ -97,7 +108,7 @@
         margin-left: 3%;
     }
 
-    .imgCart{
+    .imgCart {
         min-width: 100px;
         max-width: 100px;
         height: 90px;
